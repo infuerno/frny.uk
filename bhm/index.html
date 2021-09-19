@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    	<title>BHM</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+		<!-- The BHM.js file triggers transition between both sides of the card -->
+		<script type="text/javascript" language="javascript" src="BHM.js"></script>
+		<!-- The BHM.css file contains all required information to animate the card -->
+		<link rel="stylesheet" href="BHM.css" media="screen"/>
+</head>
+<body onload="init();">
+	<div id="container">
+	<div id="stats"></div>
+		<!-- Shows a card with suit characters. We use the ascii table to display these suit characters. -->
+		<div id="card" class="card" onclick="flip(event);">
+			<!-- The front and face classes are respectively used to style the front and back of the card -->
+			<!-- Shows the front of the card. Shown when this page initially loads in Safari on iPhone 2.0 or in iPhone simulator. -->
+			<div id="front" class="front face">
+				<img id="frontImage" src="" alt="" height="200px" width="250px"/>
+			</div>
+			<!-- Shows the back of the card. Hidden when this page initially loads in Safari on iPhone 2.0 or in iPhone simulator. -->
+			<div id="back" class="back face">
+				<img id="backImage" src="" alt="" height="200px" width="250px"/>
+			</div>
+		</div>
+	  <div>
+    	<input class="incorrect button" type="button" value="Incorrect" onclick="incorrect();" />
+      </div>
+	  <div>
+    	<input class="correct button" type="button" value="Correct" onclick="correct();" />
+	  </div>
+	</div>
+</body>
+</html>

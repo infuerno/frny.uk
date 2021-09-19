@@ -1,0 +1,92 @@
+<html>
+<head>
+<style type="text/css">
+body {
+	background-color: #181114;
+}
+
+#outer {
+	height: 100%; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%;
+}
+		
+#outer[id] 
+{
+	display: table; 
+	position: static;
+}
+		
+#middle 
+{
+	position: absolute; 
+	top: 50%; 
+	width: 100%; 
+	text-align: center;
+} 
+/* for explorer only */
+#middle[id] 
+{
+	display: table-cell; 
+	vertical-align: middle; 
+	position: static;
+}
+
+#inner 
+{
+	position: relative; 
+	top: -50%; 
+	text-align: left;
+	background-color: #181114;
+	color: white;
+} 
+/* for explorer only */
+#inner 
+{
+	width: 351px; 
+	margin: 0 auto;
+}
+
+.box {
+	display: block;
+	border: solid 1px #181114;
+	padding: 0px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+/* for all browsers*/
+/* optional: #inner[id] {position: static;} */
+img {
+	border: none;
+}
+
+</style>
+</head>
+<body>
+<div id="outer">
+<div id="middle">
+<div id="inner">
+    <span class="box"><a href="keikyu/index.html"><img src="keikyu/keikyu.png" height="100px" width="100px"/></a></span>
+    <span class="box"><a href="unten/index.html"><img src="unten/gtr.png" height="100px" width="100px"/></a></span>
+    <span class="box"><a href="domokun/index.html"><img src="domokun/domokun.jpg" height="100px" width="100px"/></a></span>
+    <span class="box"><a href="japanese/index.html"><img src="japanese/japanese.png" height="100px" width="100px"/></a></span>
+    <span class="box"><a href="queasy/index.html"><img src="queasy/queasy.png" height="100px" width="100px"/></a></span>
+    <span class="box"><a href="bhm/index.html"><img src="bhm/bhm.png" height="100px" width="100px"/></a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8878138-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

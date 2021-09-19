@@ -1,0 +1,162 @@
+body 
+{
+	margin: 0px;
+	-webkit-user-select: none;
+}
+
+
+/* Styles the "Card Flip" page and creates a placeholder for the card */
+#container
+{
+	color: White;
+	/* Set these dimensions so the card can be properly displayed in Safari on iPhone */
+	height: 356px;
+	width: 320px;
+	background-color: rgba(0,0,0,1);
+	
+	/* Give some depth to the card */
+	-webkit-perspective: 600;
+}
+
+#stats
+{
+	position: absolute;
+	height: 78px;
+	left: 25px;
+	top: 35px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+}
+
+/* Applies 3D transform and transition effects to the card. The card has two states: regular and flipped.
+   A card is in a regular state when there is an empty transform applied to it, and otherwise in a flipped
+   state, where there is a rotational transformation applied. This class is used when the card is in the regular state.
+   The "card flipped" class is used when the card is in the flipped state. 
+*/
+.card 
+{
+	/* Disable tap highlighting */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	position: absolute;
+	height: 200px;
+	width: 250px;
+	left: 35px;
+	top: 78px;
+	
+	/* Ensure that the card lives correctly in 3D space */
+	-webkit-transform-style: preserve-3d;
+	
+	/* We apply this property to the card so it can smoothly flip between its sides */
+	-webkit-transition-property: -webkit-transform;
+	/* Make the animation occur over a period of 1.5 seconds */
+	-webkit-transition-duration: 0s;
+}
+
+
+/* Applies the flip animation to the card */
+.card.flipped
+{
+
+	/* Rotate the card 180 degrees along the y-axis. This animation allows the card to
+	  toggle between its regular and flipped states. */
+	-webkit-transform: rotateY(180deg);
+}
+
+
+/* Styles the card and hides its "back side" when the card is flipped */
+.face 
+{
+	position: absolute;
+	height: 200px;
+	width: 250px;
+	/* Give a round layout to the card */
+	-webkit-border-radius: 10px;
+	/* Drop shadow around the card */
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+	/* Make sure that users will not be able to select anything on the card */
+	
+	/* We create the card by stacking two div elements at the exact same location. The back of the card 
+	   is shown when we rotated the card 180 degrees along the y-axis. Setting this property to hidden
+	   ensures that the "back side" is hidden when the card is flipped
+	*/
+	-webkit-backface-visibility: hidden;
+}
+
+
+/* Styles the front of the card */
+.front 
+{
+	/* Set the color of the suit characters on the card */
+	color: rgb(78,150,249);
+	/* Background color of this side of the card */
+	background-color: rgb(34,65,108);
+}
+
+
+/* Styles the back of the card */
+.back 
+{
+	color: rgb(34,65,108);
+	background-color: rgba(78,150,249,0.5);
+	
+	/* Ensure the "back side" is flipped already */
+	-webkit-transform: rotateY(180deg);
+}
+
+/* The button class defines properties for buttons that are either 30px or 46px high  */
+.button	
+{	
+   /* Set a button to be a block so its height and width can be adjusted */
+	display: block;		    
+	
+	/* Use the highest button height to ensure that text will vertically align on all buttons */
+	line-height: 43px;	 
+	
+	/* A button will expand to the width of its parent cell if no width is specified */
+	width: 159px;			
+	
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	
+	text-decoration: none;
+	text-align: center;
+}
+
+
+ /*  Builds a button using a 29x46 image */
+.correct
+{
+	margin: 3px auto;
+	color: #fff;
+	background-color: Green;
+	 /*  Put a 1 pixel blur black shadow below the button's text */
+	text-shadow: #000 0px 1px 1px;
+	
+	/* The right and left borders are 14 pixels wide  */
+	border-width: 0px 14px 0px 14px;
+	position: absolute;
+	right: 0px;
+	top: 306px;	   
+}
+
+.incorrect
+{
+	margin: 3px auto;
+	color: #fff;
+	background-color: red;
+	 /*  Put a 1 pixel blur black shadow below the button's text */
+	text-shadow: #000 0px 1px 1px;
+	
+	/* The right and left borders are 14 pixels wide  */
+	border-width: 0px 14px 0px 14px;	   
+
+	position: absolute;
+	left: 0px;
+	top: 306px;
+}

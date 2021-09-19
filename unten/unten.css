@@ -1,0 +1,108 @@
+﻿body 
+{
+	color: #ddd;
+	background-color: #273C2D;
+	font-family: Helvetica;
+	margin: 0;
+	text-align: center;
+}
+
+h1
+{
+	border: dotted 1px #ddd;
+	margin: 0 0 10px 0;
+	padding: 5px;
+	color: #ddd;
+}
+
+h2
+{
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+	color: green;
+}
+
+h3
+{
+	margin: 0;
+	font-size: 11px;
+	font-weight: normal;
+	margin-left: 2px;
+	color: darkgreen;	
+	border-bottom: dotted 1px darkgreen;
+}
+
+p
+{
+	margin-top: 5px;
+	margin-left: 2px;
+	font-size: 15px;
+}
+
+#container
+{
+	width: 840px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#alpha
+{
+	width: 300px;
+	padding: 10px 5px 5px 5px;
+	float: left;
+}
+
+#beta
+{
+	width: 300px;
+	padding: 10px 5px 5px 5px;
+	float: left;
+}
+
+#gamma
+{
+	float: left;
+	width: 178px;
+	padding: 10px 5px 5px 5px;
+}
+
+#gamma ul
+{
+	border: dotted 1px #ddd;
+	padding: 5px 5px 5px 20px;
+}
+
+#beta
+{
+	height: 39px;
+}
+
+ul
+{
+	margin: 0;
+	padding-left: 20px;
+}
+
+li 
+{
+	list-style-type:square;
+	color: green;
+}
+
+a, a:active
+{
+	color: green;
+}
+
+a:hover
+{
+	color: white;
+}
+
+a:visited
+{
+	color: darkgreen;
+}
+

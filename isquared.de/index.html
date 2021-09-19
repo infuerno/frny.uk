@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>isquared.de</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+    function init()
+    {
+        var spaceAroundContainer = (self.innerHeight - 500)/2;
+        var heightFonts = 35;
+        document.getElementById('links').style.top = (500 + spaceAroundContainer - heightFonts) + 'px';
+        document.getElementById('fonts').style.bottom = (500 + spaceAroundContainer - heightFonts) + 'px';
+        doMove();
+    }
+    
+    function doMove() {
+        const DISTANCE = 10;
+        const TIMEOUT = 1;
+        
+        var links = document.getElementById('links');
+        var fonts = document.getElementById('fonts');
+        var linksTop = parseInt(links.style.top);
+        var fontsBottom = parseInt(fonts.style.bottom);
+        var timeout = false;
+        
+        if (linksTop > DISTANCE)
+        {
+            links.style.top = linksTop - DISTANCE + 'px';
+            timeout = true;
+        }
+        else
+            links.style.top = '0px';
+            
+        if (fontsBottom > DISTANCE)
+        {
+            fonts.style.bottom = fontsBottom - DISTANCE + 'px';
+            timeout = true;
+        }
+        else
+            fonts.style.bottom = '0px';
+
+        if (timeout)
+            setTimeout(doMove, TIMEOUT);
+    }
+    
+    window.onload = init;
+</script>
+</head>
+<body>
+    <div id="container">
+        <div id="links">
+            <a href="http://dev.isquared.de">dev</a>&nbsp;&nbsp;
+            <a href="http://route55.isquared.de">route55</a>
+        </div>
+        <div id="isquared">i&sup2;</div>
+        <div id="fonts">
+            <a href="#" onclick="javascript:changeFont('arial');">arial</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('garamond');">garamond</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('helvetica');">helvetica</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('impact');">impact</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('lucida console');">lucida console</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('verdana');">verdana</a>&nbsp;&nbsp;
+            <a href="#" onclick="javascript:changeFont('times');">times</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">    
+    function changeFont(fontName)
+    {
+	    document.getElementById('isquared').style.fontFamily = fontName;
+    }
+    </script>
+
+</body>
+</html>
