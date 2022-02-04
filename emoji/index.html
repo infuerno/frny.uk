@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emojis</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Questrial');
+
+    html {
+      font-family: Questrial;
+    }
+
+    #emojis {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .emoji {
+      border: dotted 1px #eff;
+      flex-basis: calc(20% - 4px);
+    }
+
+    .code:hover {
+      background-color: #eff;
+      cursor: pointer;
+    }
+
+    img {
+      padding: 2px 3px;
+      height: 20px;
+      vertical-align: text-bottom;
+    }
+/*
+    .emoji {
+      display: flex;
+    }
+    img {
+      width: 20px;
+      display:block;
+    }
+ */
+    #help {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="help">
+    <p>This page is automatically populated from <a
+        href="https://api.github.com/emojis">https://api.github.com/emojis</a></p>
+  </div>
+  <div id="emojis">
+  </div>
+</body>
+<script async>
+  (async () => {
+    const response = await fetch("https://api.github.com/emojis");
+    const emojis = await response.json();
+    const container = document.getElementById("emojis");
+    for (const emojiCode in emojis) {
+      const div = document.createElement("div");
+      div.setAttribute("class", "emoji");
+      div.innerHTML = `
+        <span><img src="${emojis[emojiCode]}"></span>
+        <span class="code">:${emojiCode}:</span>
+      `
+      container.appendChild(div);
+    }
+  })();
+</script>
+
+</html>
