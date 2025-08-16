@@ -1,0 +1,24 @@
+---
+title: Fruity Knitting 003
+author: ''
+date: '2023-05-04'
+slug: fruity-knitting-003
+categories: []
+tags: [martin-storey, marie-wallin, magpies, yaks-wool]
+---
+
+[YouTube](https://www.youtube.com/watch?v=sR4WA2fwFCc) | [Programme notes](https://fruityknitting.com/2016/04/23/danish-designers-australian-magpies-fruity-knitting-podcast-episode-3/)
+
+## Under Construction
+* Martin Storey - Windy Scarf 🧑‍🦰
+* Hermonie's Everyday Socks / Susan B Anderson's Simple Explanations 🕵️
+* [Marie Wallin - "Norbu" Cardigan](https://www.ravelry.com/patterns/library/norbu) 🧑‍🦰
+
+## Wool
+* Discussion about Yaks wool
+
+## Radio
+[Off track radio show](https://www.abc.net.au/radionational/programs/offtrack) - Australia's Radio National. Discussion on magpies.
+
+## Feature
+Local wool shop "Maschenwahn" owner Ulrike Janssen. Shop is in suburb of Frankfurt called Offenbach where Andrew and Andrea live. [Marianne Isager](https://isagerstrik.dk/en/marianne-isager/?lang=en) - Danish designer with Japanese influences.

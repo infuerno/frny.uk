@@ -1,0 +1,18 @@
+---
+title: Fruity Knitting 014
+author: infuerno
+date: '2023-06-10'
+slug: fruity-knitting-014
+categories: []
+tags: [steeks, shetland, knitting-belt, flicking]
+---
+
+[YouTube](https://www.youtube.com/watch?v=3nqdISSmn_Q) | [Programme notes]()
+
+## Under Construction
+* Hiking Jacket - Yorshire Wildlife Trust wool - got a bit of tooth in it
+* Marie Wallin - green one
+* Jade Starmore - Firebirds for Andrew - ready to cut the steeks - did so over a glass of Laphroig
+
+## Feature
+* Donna Smith - Patron of the Shetland Wool Week 2015 - talking about the history of Shetland and her family - demonstration of using a knitting belt and "flicking" the wool, some haps and shawls knitted by her 95 year old Aunt Mary.

@@ -1,0 +1,31 @@
+---
+title: Fruity Knitting 011
+author: infuerno
+date: '2023-06-05'
+slug: fruity-knitting-011
+categories: [bobbins, hiking-jacket]
+tags: []
+---
+
+[YouTube](https://www.youtube.com/watch?v=0n17Kojbmj8) | [Programme Notes](https://fruityknitting.com/2016/08/16/episode-11/)
+
+## Bring and Brag
+* Andrew's socks which are based on Susan B Anderson's Simple Socks pattern: http://susanbanderson.blogspot.com/2012/02/how-i-make-socks.html
+* Andreas' Amaryllis
+
+## Under Construction
+* Marie Wallin one with the roses
+  - how to make little bobbins for doing intarsia
+* Andrew's hiking jacket
+ - three needle bind off to join the hem to the jacket - see Andrea's technique video
+ - use provisional cast on, its less bulky if you are folding it over for a hem, and also more elastic
+ - start with the main colour for a couple of rows so when you join there is no bleed through of the contrast colour (great idea!!)
+ - where you are going to turn, do 3 purl rows, one after the other - normal purl row, purl instead of knit and then another normal purl row - the middle purl row then makes up the edge
+ - andrew has 120 stitches
+* Andrea is also going to start Jade Starmore's Firebird jumper for Andrew
+
+## Knitters of the World
+- Sarah https://fibertrek.wordpress.com
+
+## KAL
+* no one wants to do the 20 second short film -feedback please..

@@ -19,5 +19,17 @@ options(
   blogdown.method = 'markdown',
 
   # fix Hugo version
-  blogdown.hugo.version = "0.111.3"
+  blogdown.hugo.version = "0.111.3",
+  blogdown.author = "infuerno",
+  blogdown.ext = ".Rmd"
+)
+
+# don't ask to save workspace on quit
+utils::assignInNamespace(
+  "q", 
+  function(save = "no", status = 0, runLast = TRUE) 
+  {
+    .Internal(quit(save, status, runLast))
+  }, 
+  "base"
 )

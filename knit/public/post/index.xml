@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A Hugo website</title>
+    <title>Posts on Slip Slip Knit</title>
     <link>https://knit.frny.uk/public/post/</link>
-    <description>Recent content in Posts on A Hugo website</description>
+    <description>Recent content in Posts on Slip Slip Knit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://knit.frny.uk/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://knit.frny.uk/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fruity Knitting 002</title>
+      <link>https://knit.frny.uk/public/post/fruity-knitting-002/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://knit.frny.uk/public/post/fruity-knitting-002/</guid>
+      <description> YouTube | Show notes
+Bring and Brag Kim Hargreaves - STILL (Andrea) Darkness - Cosy hooded coat for Madeleine Temperate - fitted sweater with frilled edges - Rowan mohair haze, Rowan fine lace (Andrea is substituting something cheaper - Rowan Alpaca Merino DK) Under Construction From the Archives </description>
+    </item>
+    
+    <item>
+      <title>Fruity Knitting 001</title>
+      <link>https://knit.frny.uk/public/post/fruity-knitting-001/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://knit.frny.uk/public/post/fruity-knitting-001/</guid>
+      <description>Bring and Brag Under Construction From the Archives Knitting Technique Videos Knitting Project Videos Markdown badges Youtube | Show notes
+Holidaying in North Wales, hired a stone cottage, overlooking a graveyard, river and sheep. #location
+Taught to knit by mother and grandmother about 6 or 7. First project was a rug knitted out of autumn leaves “triangles” - approx 100 leaves - cast on, 2 rows garter stitch, then decrease slowly: one side knit two together; other side slip one, knit one, pass slip stitch over - final 3 stitches, bind off.</description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
-      <link>https://knit.frny.uk/public/2020/12/01/hello-r-markdown/</link>
+      <link>https://knit.frny.uk/public/post/hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://knit.frny.uk/public/2020/12/01/hello-r-markdown/</guid>
+      <guid>https://knit.frny.uk/public/post/hello-r-markdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -20,20 +41,20 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>https://knit.frny.uk/public/2016/12/30/a-plain-markdown-post/</link>
+      <link>https://knit.frny.uk/public/post/a-plain-markdown-post/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
       
-      <guid>https://knit.frny.uk/public/2016/12/30/a-plain-markdown-post/</guid>
+      <guid>https://knit.frny.uk/public/post/a-plain-markdown-post/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
 You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc. There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>https://knit.frny.uk/public/2015/01/01/lorem-ipsum/</link>
+      <link>https://knit.frny.uk/public/post/lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
-      <guid>https://knit.frny.uk/public/2015/01/01/lorem-ipsum/</guid>
+      <guid>https://knit.frny.uk/public/post/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
